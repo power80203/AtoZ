@@ -10,10 +10,8 @@ pconfig = Path(__file__).parents[1]
 #aa = os.path.abspath(os.path.join(yourpath, os.pardir))
 
 
-print(pconfig)
-
-traindatapath = "%s/data/raw/Social_Network_Ads.csv"%pconfig
+traindatapathForlogistic = "%s/data/raw/Social_Network_Ads.csv"%pconfig
 
 
 if __name__ == "__main__":
-    print("訓練資料集在",traindatapath)
+    print("羅吉斯訓練資料集在",traindatapathForlogistic)
