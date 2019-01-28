@@ -6,7 +6,6 @@ from pathlib import Path
 
 pconfig = Path(__file__).parents[1]
 
-
 #aa = os.path.abspath(os.path.join(yourpath, os.pardir))
 
 
